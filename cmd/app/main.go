@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
+	"github.com/tm1944/TaskCLI/internal/task"
 )
 
 func main() {
-	fmt.Println("TASK CLI!!")
+	task.Run()
 }
